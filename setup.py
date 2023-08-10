@@ -7,6 +7,7 @@ setup(
     version='1.6.13',
     description='pyflann is the python bindings for FLANN - Fast Library for Approximate Nearest Neighbors.',
     author='Marius Muja & Gefu Tang',
+    install_requires=["numpy"],
     author_email='mariusm@cs.ubc.ca, tanggefu@gmail.com',
     license='BSD',
     keywords="flann",
